@@ -182,6 +182,11 @@ footer{
     animation: circle .8s linear infinite;
 }
 
+.label{
+    background-color: #1b3d5b;
+    color: aliceblue;
+}
+
 @keyframes circle {
     100%{
         transform: rotate(360deg);
