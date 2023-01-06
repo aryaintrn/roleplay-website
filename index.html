@@ -6,8 +6,15 @@
         <title>ROLEPLAY</title>
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     </head>
         <body>
+            <!--    loader    -->
+                <div class="bg-loader">
+                    <div class="loader">
+
+                    </div>
+                </div>
             <!--   Header     -->
             <div class="medsos">
                 <div class="container">
@@ -53,5 +60,48 @@
                     </p>
                 </div>
             </section>
+            <!--   Donation     -->
+            <section class="donation">
+                <div class="container">
+                    <h3>Donation</h3>
+                    <div class="box">
+                        <div class="col-4">
+                            <div class="icon">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                            <h4>KENDARAAN</h4>
+                        </div>
+                        <div class="col-4">
+                            <div class="icon">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <h4>PROPERTY</h4>
+                        </div>
+                        <div class="col-4">
+                            <div class="icon">
+                                <i class="fa-solid fa-mobile"></i>
+                            </div>
+                            <h4>NO HP</h4>
+                        </div>
+                        <div class="col-4">
+                            <div class="icon">
+                                <i class="fa-solid fa-person"></i>
+                            </div>
+                            <h4>PED</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--   Footer     -->
+            <footer>
+                <div class="container">
+                    <small>Copyright &copy; 2022 - Arya Intaran</small>
+                </div>
+            </footer>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.bg-loader').hide();
+                });
+            </script>
         </body>
 </html>
